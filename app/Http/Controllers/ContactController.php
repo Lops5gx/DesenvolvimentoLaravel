@@ -9,8 +9,4 @@ class ContactController extends Controller
     public function contact(){
         return view('site/contact');
     }
-
-    public function getData($name){
-        return "estamos aqui $name";
-    }
 }
